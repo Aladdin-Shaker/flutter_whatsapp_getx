@@ -5,6 +5,7 @@ import 'package:get/route_manager.dart';
 
 import 'package:whats_app_clone/app/config/binding.dart';
 import 'package:whats_app_clone/app/config/constants.dart';
+import 'package:whats_app_clone/app/config/routes.dart';
 import 'package:whats_app_clone/app/config/theme.dart';
 import 'package:whats_app_clone/app/utils/device_camera.dart';
 import 'package:whats_app_clone/app/utils/device_info.dart';
@@ -54,7 +55,7 @@ class MyApp extends StatelessWidget {
       title: 'Whats app clone',
       theme: buildThemeData(),
       home: const InitScreen(),
-      // getPages: router.getPagesRoutes,
+      getPages: getPagesRoutes,
     );
 
     // Widget build(BuildContext context) {

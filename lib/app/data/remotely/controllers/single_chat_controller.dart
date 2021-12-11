@@ -82,11 +82,20 @@ class SingleChatController extends RootController {
         print('socket connected to the server successfuly');
         socket.on('message', (data) {
           print('data from server => $data');
-          setMessageLocaly(MessageModel(
-            name: data['message'],
-            type: 'target',
-            time: data['time'],
-          ));
+
+          setMessageLocaly(
+            //   MessageModel.fromJson({
+            //   'name': data['message'],
+            //   'type': 'target',
+            //   'time': data['time'],
+            // })
+            MessageModel(
+                data['message'],
+                'target',
+                DateTime.now().hour.toString() +
+                    ":" +
+                    DateTime.now().minute.toString()),
+          );
         });
         print('socket is connected ? ${socket.connected}');
       },
@@ -116,8 +125,7 @@ class SingleChatController extends RootController {
   }
 
   setMessageLocaly(MessageModel msg) {
-    if (msg.name == '') return;
-
+    if (msg.message == '') return;
     listMessages.add(msg);
     animateChatScrollController();
   }
@@ -136,6 +144,8 @@ class SingleChatController extends RootController {
       "sourceId": sourceId,
       "targetId": targetId,
     });
-    setMessageLocaly(MessageModel(name: message, type: 'source', time: time));
+    setMessageLocaly(
+        // MessageModel.fromJson({'messaage': message, 'type': 'source', time: time}));
+        MessageModel(message, 'source', time));
   }
 }

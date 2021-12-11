@@ -13,42 +13,42 @@ class SelectContact extends StatefulWidget {
 
 class _SelectContactState extends State<SelectContact> {
   List<ChatModel> contacts = [
-    ChatModel(
-      id: '1',
-      name: 'Ahmad Nour',
-      date: '',
-      icon: 'person.svg',
-      currentMessage: '',
-      isGroup: false,
-      status: 'status here ...',
-    ),
-    ChatModel(
-      id: '2',
-      name: 'Mohammed Salim',
-      date: '',
-      icon: 'person.svg',
-      currentMessage: '',
-      isGroup: false,
-      status: 'status here ...',
-    ),
-    ChatModel(
-      id: '3',
-      name: 'Ayham Madi',
-      date: '',
-      icon: 'person.svg',
-      currentMessage: '',
-      isGroup: false,
-      status: 'status here ...',
-    ),
-    ChatModel(
-      id: '4',
-      name: 'Abdallah frah',
-      date: '',
-      icon: 'person.svg',
-      currentMessage: '',
-      isGroup: false,
-      status: 'status here ...',
-    ),
+    ChatModel.fromJson({
+      'id': '1',
+      'name': 'Ahmad Nour',
+      'date': '',
+      'icon': 'person.svg',
+      'currentMessage': '',
+      'isGroup': false,
+      'status': 'status here ...',
+    }),
+    ChatModel.fromJson({
+      'id': '2',
+      'name': 'Mohammed Salim',
+      'date': '',
+      'icon': 'person.svg',
+      'currentMessage': '',
+      'isGroup': false,
+      'status': 'status here ...',
+    }),
+    ChatModel.fromJson({
+      'id': '3',
+      'name': 'Ayham Madi',
+      'date': '',
+      'icon': 'person.svg',
+      'currentMessage': '',
+      'isGroup': false,
+      'status': 'status here ...',
+    }),
+    ChatModel.fromJson({
+      'id': '4',
+      'name': 'Abdallah frah',
+      'date': '',
+      'icon': 'person.svg',
+      'currentMessage': '',
+      'isGroup': false,
+      'status': 'status here ...',
+    }),
   ];
 
   @override

@@ -1,5 +1,4 @@
 import 'package:camera/camera.dart';
-import 'package:device_info/device_info.dart';
 import 'package:flutter/material.dart';
 
 // fonts
@@ -8,14 +7,15 @@ const String fontFamily = 'OpenSans';
 // routes
 const String landingViewRoute = '/landing';
 const String initViewRoute = '/init';
-const String homeViewRoute = '/home';
-// const String cameraViewRoute = '/camera';
-const String messagesViewRoute = '/messages';
-const String chatViewRoute = '/chat';
-const String accountViewRoute = '/account';
-const String signinViewRoute = '/signin';
-const String signupViewRoute = '/signup';
-const String logoutRoute = '/logout';
+const String cameraViewRoute = '/camera';
+const String chatsViewRoute = '/chats';
+const String statusViewRoute = '/status';
+const String callsViewRoute = '/calls';
+// const String messagesViewRoute = '/messages';
+// const String accountViewRoute = '/account';
+// const String signinViewRoute = '/signin';
+// const String signupViewRoute = '/signup';
+// const String logoutRoute = '/logout';
 const String undefiendRoute = '/undefiend';
 
 // colors

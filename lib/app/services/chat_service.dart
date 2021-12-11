@@ -1,9 +1,5 @@
-import 'package:get/instance_manager.dart';
-import 'package:whats_app_clone/app/data/remotely/controllers/single_chat_controller.dart';
 import 'package:whats_app_clone/app/models/chat.dart';
-import 'package:whats_app_clone/app/models/message.dart';
 import 'package:whats_app_clone/root/contracts/rootService.dart';
-import 'package:socket_io_client/socket_io_client.dart' as IO;
 
 class ChatService extends RootService {
   // SingleChatController chatCtrl = Get.put(SingleChatController());
@@ -26,94 +22,94 @@ class ChatService extends RootService {
     return Future.delayed(Duration(seconds: 1), () {
       final List<ChatModel> chats = [
         ChatModel(
-          id: '1',
-          name: 'Family group',
-          date: '12:41',
-          icon: 'people.svg',
-          currentMessage: 'Hi family',
-          isGroup: true,
-          status: '',
+          '1',
+          'Family group',
+          '12:41',
+          'people.svg',
+          true,
+          '',
+          'Hi family',
         ),
         ChatModel(
-          id: '2',
-          name: 'Ahmad Kh',
-          date: '10:31',
-          icon: 'pesone.svg',
-          currentMessage: 'Hi Aladdin, how are you ?',
-          isGroup: false,
-          status: '',
+          '2',
+          'Ahmad Kh',
+          '10:31',
+          'pesone.svg',
+          false,
+          '',
+          'Hi Aladdin, how are you ?',
         ),
         ChatModel(
-          id: '3',
-          name: 'Friends :)',
-          date: '09:00',
-          icon: 'people.svg',
-          currentMessage: 'we can make that ..',
-          isGroup: true,
-          status: '',
+          '3',
+          'Friends :)',
+          '09:00',
+          'people.svg',
+          true,
+          '',
+          'we can make that ..',
         ),
         ChatModel(
-          id: '4',
-          name: 'University group',
-          date: '16:41',
-          icon: 'people.svg',
-          currentMessage: 'what is the different ..',
-          isGroup: true,
-          status: '',
+          '4',
+          'University group',
+          '16:41',
+          'people.svg',
+          true,
+          '',
+          'what is the different ..',
         ),
         ChatModel(
-          id: '5',
-          name: 'Fatima Ali',
-          date: '18:33',
-          icon: 'peson.svg',
-          currentMessage: 'are you ready ?',
-          isGroup: false,
-          status: '',
+          '5',
+          'Fatima Ali',
+          '18:33',
+          'peson.svg',
+          false,
+          '',
+          'are you ready ?',
         ),
         ChatModel(
-          id: '6',
-          name: 'Work group',
-          date: '20:22',
-          icon: 'people.svg',
-          currentMessage: 'very good',
-          isGroup: true,
-          status: '',
+          '6',
+          'Work group',
+          '20:22',
+          'people.svg',
+          true,
+          '',
+          'very good',
         ),
         ChatModel(
-          id: '7',
-          name: 'Mhd Fadi',
-          date: '02:55',
-          icon: 'peson.svg',
-          currentMessage: 'call me please ',
-          isGroup: false,
-          status: '',
+          '7',
+          'Mhd Fadi',
+          '02:55',
+          'peson.svg',
+          false,
+          '',
+          'call me please ',
         ),
         ChatModel(
-          id: '8',
-          name: 'Mhd Fadi',
-          date: '02:55',
-          icon: 'peson.svg',
-          currentMessage: 'call me please ',
-          isGroup: false,
-          status: '',
+          '8',
+          'Mhd Fadi',
+          '02:55',
+          'peson.svg',
+          false,
+          '',
+          'call me please ',
         ),
         ChatModel(
-          id: '9',
-          name: 'Friends :)',
-          date: '09:00',
-          icon: 'people.svg',
-          currentMessage: 'we can make that ..',
-          isGroup: true,
-          status: '',
+          '9',
+          'Friends :)',
+          '09:00',
+          'people.svg',
+          true,
+          '',
+          'we can make that ..',
         ),
         ChatModel(
-          id: '10',
-          name: 'University group',
-          date: '16:41',
-          icon: 'people.svg',
-          currentMessage: 'what is the different ..',
-          isGroup: true,
-          status: '',
+          '10',
+          'University group',
+          '16:41',
+          'people.svg',
+          true,
+          '',
+          'what is the different ..',
         ),
       ];
       return chats;
@@ -157,7 +153,7 @@ class ChatService extends RootService {
   //       socket.on('message', (data) {
   //         print('data from server => $data');
   //         // chatCtrl.setMessageLocaly(
-  //         //     MessageModel(name: data['message'], type: 'target'));
+  //         //     MessageModel(data['message'], type: 'target'));
   //       });
   //       print('socket is connected ? ${socket.connected}');
   //     },
@@ -172,6 +168,6 @@ class ChatService extends RootService {
   //     "sourceId": sourceId,
   //     "targetId": targetId,
   //   });
-  //   // chatCtrl.setMessageLocaly(MessageModel(name: message, type: 'source'));
+  //   // chatCtrl.setMessageLocaly(MessageModel(message, type: 'source'));
   // }
 }

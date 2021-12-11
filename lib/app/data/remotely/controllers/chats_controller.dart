@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:get/get_rx/src/rx_types/rx_types.dart';
 import 'package:whats_app_clone/app/models/chat.dart';
 import 'package:whats_app_clone/app/services/chat_service.dart';
@@ -7,6 +8,8 @@ class ChatsController extends RootController {
   Rx<Future<List<ChatModel>>?> listChats = Future.value(<ChatModel>[]).obs;
   // var listChats = Future.value(<ChatModel>[]);
   // List<ChatModel> listChats = [];
+
+  late TabController tabController;
 
   @override
   void onInit() {
@@ -21,7 +24,6 @@ class ChatsController extends RootController {
   }
 
   Future<List<ChatModel>>? getAllChats() {
-    print('getAllChats chat controller');
     try {
       listChats.value = ChatService().findAll();
     } catch (error) {

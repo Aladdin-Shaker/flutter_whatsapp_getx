@@ -1,25 +1,26 @@
 import 'package:flutter/material.dart';
 import 'package:get/instance_manager.dart';
-import 'package:whats_app_clone/app/data/remotely/controllers/home_controller.dart';
+import 'package:whats_app_clone/app/data/remotely/controllers/chats_controller.dart';
 import 'package:whats_app_clone/app/views/pages/camera_page/cameraPage.dart';
 import 'package:whats_app_clone/app/views/pages/chat_page/chatsPage.dart';
+import 'package:whats_app_clone/app/views/pages/status_page/status_page.dart';
 import 'package:whats_app_clone/app/views/widgets/custom_app_bar.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+class ChatsScreen extends StatefulWidget {
+  const ChatsScreen({Key? key}) : super(key: key);
 
   @override
-  _HomeScreenState createState() => _HomeScreenState();
+  _ChatsScreenState createState() => _ChatsScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen>
+class _ChatsScreenState extends State<ChatsScreen>
     with SingleTickerProviderStateMixin {
-  HomeController homeCtrl = Get.put(HomeController());
+  ChatsController chatsCtrl = Get.put(ChatsController());
 
   @override
   void initState() {
     super.initState();
-    homeCtrl.tabController =
+    chatsCtrl.tabController =
         TabController(length: 4, vsync: this, initialIndex: 1);
   }
 
@@ -75,7 +76,7 @@ class _HomeScreenState extends State<HomeScreen>
         ],
         bottom: TabBar(
           indicatorColor: Colors.white,
-          controller: homeCtrl.tabController,
+          controller: chatsCtrl.tabController,
           tabs: [
             Tab(
               icon: Icon(Icons.camera_alt_rounded),
@@ -94,13 +95,11 @@ class _HomeScreenState extends State<HomeScreen>
         leading: null,
       ),
       body: TabBarView(
-        controller: homeCtrl.tabController,
+        controller: chatsCtrl.tabController,
         children: [
           CameraPage(),
           ChatsPage(),
-          Center(
-            child: Text('STATUS'),
-          ),
+          StatusPage(),
           Center(
             child: Text('CALLS'),
           ),

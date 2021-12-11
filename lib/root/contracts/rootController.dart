@@ -7,8 +7,10 @@
 
 import 'package:get/get_state_manager/src/rx_flutter/rx_notifier.dart';
 import 'package:get/get_state_manager/src/simple/get_controllers.dart';
+import 'package:whats_app_clone/root/contracts/rootModel.dart';
 
-abstract class RootController extends GetxController with StateMixin {
+abstract class RootController extends GetxController
+    with StateMixin<RootModel> {
   Map<String, dynamic> buildResponse(
       Map<String, dynamic>? data, bool status, bool alert, String message) {
     final Map<String, dynamic> result = {

@@ -26,12 +26,12 @@ class RenderChatMessages extends GetView<SingleChatController> {
               }
               if (controller.listMessages[index].type == "source") {
                 return SentMessage(
-                  message: controller.listMessages[index].name,
+                  message: controller.listMessages[index].message,
                   time: controller.listMessages[index].time,
                 );
               } else {
                 return ReceivedMessage(
-                  message: controller.listMessages[index].name,
+                  message: controller.listMessages[index].message,
                   time: controller.listMessages[index].time,
                 );
               }

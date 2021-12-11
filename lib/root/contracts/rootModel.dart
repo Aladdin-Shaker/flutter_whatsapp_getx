@@ -6,6 +6,8 @@
 */
 
 abstract class RootModel {
+  RootModel();
+
   //  method, for constructing a new model instance from a map structure
   Map<String, dynamic> toJson();
 

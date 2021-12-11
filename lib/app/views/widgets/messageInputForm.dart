@@ -32,7 +32,8 @@ class MessageInputForm extends StatelessWidget {
                       child: IconButton(
                         onPressed: () {
                           if (!controller.isSendMsgBtn) {
-                            debugPrint(controller.msgController.text);
+                            debugPrint(
+                                'message => ${controller.msgController.text}');
                             controller
                               ..sendMessage(
                                 controller.msgController.text,
