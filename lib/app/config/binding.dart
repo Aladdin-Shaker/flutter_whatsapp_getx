@@ -7,10 +7,25 @@ import 'package:whats_app_clone/app/data/remotely/controllers/video_controller.d
 class Binding implements Bindings {
   @override
   void dependencies() {
-    Get.lazyPut<ChatsController>(() => ChatsController(), fenix: false);
-    Get.lazyPut<ChatsController>(() => ChatsController());
-    Get.lazyPut<VideoController>(() => VideoController());
-    Get.lazyPut<StatusController>(() => StatusController());
-    Get.lazyPut<SingleChatController>(() => SingleChatController());
+    Get.lazyPut<ChatsController>(
+      () => ChatsController(),
+      fenix: false,
+      tag: 'chatCtrl',
+    );
+    Get.lazyPut<VideoController>(
+      () => VideoController(),
+      fenix: false,
+      tag: 'videoCtrl',
+    );
+    Get.lazyPut<StatusController>(
+      () => StatusController(),
+      fenix: false,
+      tag: 'statusCtrl',
+    );
+    Get.lazyPut<SingleChatController>(
+      () => SingleChatController(),
+      fenix: false,
+      tag: 'singleChatCtrl',
+    );
   }
 }

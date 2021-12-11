@@ -11,15 +11,16 @@ class StatusController extends RootController {
       Future.value(<StatusModel>[]).obs;
   Rx<Future<List<StatusModel>>?> viewedStatus =
       Future.value(<StatusModel>[]).obs;
-  final loading = Rx<bool>(false);
+  // final loading = Rx<bool>(false);
 
   @override
   void onInit() {
+    print('---- StatusController onInit called ----');
     super.onInit();
-    loading(true);
+    // loading(true);
     getAllRecentStatus();
     getAllViewedStatus();
-    loading(false);
+    // loading(false);
   }
 
   @override

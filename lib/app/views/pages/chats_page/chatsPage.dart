@@ -6,14 +6,9 @@ import 'package:whats_app_clone/app/models/chat.dart';
 import 'package:whats_app_clone/app/views/screens/selectedcontact_screen/selectContact.dart';
 import 'package:whats_app_clone/app/views/widgets/chatCard.dart';
 
-class ChatsPage extends StatefulWidget {
+class ChatsPage extends GetView<ChatsController> {
   const ChatsPage({Key? key}) : super(key: key);
 
-  @override
-  _ChatsPageState createState() => _ChatsPageState();
-}
-
-class _ChatsPageState extends State<ChatsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

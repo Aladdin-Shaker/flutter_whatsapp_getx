@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/instance_manager.dart';
 import 'package:whats_app_clone/app/data/remotely/controllers/chats_controller.dart';
 import 'package:whats_app_clone/app/views/pages/camera_page/cameraPage.dart';
-import 'package:whats_app_clone/app/views/pages/chat_page/chatsPage.dart';
-import 'package:whats_app_clone/app/views/pages/status_page/status_page.dart';
+import 'package:whats_app_clone/app/views/pages/chats_page/chatsPage.dart';
+import 'package:whats_app_clone/app/views/pages/status_page/statusPage.dart';
 import 'package:whats_app_clone/app/views/widgets/custom_app_bar.dart';
 
 class ChatsScreen extends StatefulWidget {

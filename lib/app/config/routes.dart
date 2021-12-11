@@ -1,7 +1,8 @@
 import 'package:get/route_manager.dart';
 import 'package:whats_app_clone/app/config/constants.dart';
 import 'package:whats_app_clone/app/views/pages/camera_page/cameraViewPage.dart';
-import 'package:whats_app_clone/app/views/pages/chat_page/chatsPage.dart';
+import 'package:whats_app_clone/app/views/pages/chats_page/chatsPage.dart';
+import 'package:whats_app_clone/app/views/pages/status_page/statusPage.dart';
 
 List<GetPage<dynamic>>? getPagesRoutes = [
   GetPage(
@@ -16,12 +17,12 @@ List<GetPage<dynamic>>? getPagesRoutes = [
   ),
   GetPage(
     name: statusViewRoute,
-    page: () => const ChatsPage(),
+    page: () => StatusPage(),
     title: 'chats page',
   ),
-  GetPage(
-    name: callsViewRoute,
-    page: () => const ChatsPage(),
-    title: 'calls page',
-  ),
+  // GetPage(
+  //   name: callsViewRoute,
+  //   page: () => const ChatsPage(),
+  //   title: 'calls page',
+  // ),
 ];

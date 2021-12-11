@@ -25,7 +25,8 @@ class SingleChatController extends RootController {
   @override
   void onInit() {
     super.onInit();
-    debugPrint('onInit called in singleChatcontroller');
+    print('---- SingleChatController onInit called ----');
+
     socketConnect();
     focusNode = FocusNode();
     focusNode.addListener(() {

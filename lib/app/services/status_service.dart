@@ -111,12 +111,12 @@ class StatusService extends RootService {
           '12:41',
           'assets/images/2.jpeg',
         ),
-        // StatusModel(
-        //   '3',
-        //   'Ahmad khalid',
-        //   '12:41',
-        //   'assets/images/3.jpeg',
-        // ),
+        StatusModel(
+          '3',
+          'Ahmad khalid',
+          '12:41',
+          'assets/images/3.jpeg',
+        ),
         // StatusModel(
         //   '4',
         //   'Ahmad khalid',

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:whats_app_clone/app/models/chat.dart';
-import 'package:whats_app_clone/app/views/pages/chat_page/singleChatPage.dart';
+import 'package:whats_app_clone/app/views/pages/chats_page/singleChatPage.dart';
 
 class ChatCard extends StatelessWidget {
   final ChatModel chat;

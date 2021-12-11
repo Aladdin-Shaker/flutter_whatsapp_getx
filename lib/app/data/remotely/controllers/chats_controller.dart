@@ -13,7 +13,7 @@ class ChatsController extends RootController {
 
   @override
   void onInit() {
-    // print('onInit chat controller');
+    print('---- ChatsController onInit called ----');
     super.onInit();
     getAllChats();
   }
