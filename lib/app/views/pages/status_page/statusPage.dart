@@ -48,6 +48,8 @@ class StatusPage extends GetView<StatusController> {
                   subTitle: 'Tap to add status update',
                   imageUrl: 'assets/images/1.jpeg',
                   isMe: true,
+                  isViewed: true,
+                  statusNo: 2,
                 ),
                 StatusDividerTitle(title: 'Recent updates'),
                 renderRecentStatus(controller),
@@ -77,6 +79,8 @@ class StatusPage extends GetView<StatusController> {
                 subTitle: item.date,
                 imageUrl: item.imageUrl,
                 isMe: false,
+                isViewed: true,
+                statusNo: 3,
               );
             },
           );
@@ -110,6 +114,8 @@ class StatusPage extends GetView<StatusController> {
                 subTitle: item.date,
                 imageUrl: item.imageUrl,
                 isMe: false,
+                isViewed: item.isViewed,
+                statusNo: item.statusNo,
               );
             },
           );

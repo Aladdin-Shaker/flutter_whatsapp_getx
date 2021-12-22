@@ -5,9 +5,17 @@ class StatusModel extends RootModel {
   final String name;
   final String date;
   final String imageUrl;
+  int statusNo = 1;
   bool isViewed = false;
 
-  StatusModel(this.id, this.name, this.date, this.imageUrl);
+  StatusModel(
+    this.id,
+    this.name,
+    this.date,
+    this.imageUrl,
+    this.statusNo,
+    this.isViewed,
+  );
 
   @override
   StatusModel.fromJson(Map<String, dynamic> json)
@@ -15,7 +23,8 @@ class StatusModel extends RootModel {
         name = json['name'] as String,
         date = json['date'] as String,
         imageUrl = json['imageUrl'] as String,
-        isViewed = json['isViewed'] as bool,
+        statusNo = json['statusNo'],
+        isViewed = json['isViewed'],
         super.fromJson(json);
 
   @override
@@ -24,6 +33,7 @@ class StatusModel extends RootModel {
         'name': name,
         'date': date,
         'imageUrl': imageUrl,
+        'statusNo': statusNo,
         'isViewed': isViewed,
       };
 }

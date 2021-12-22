@@ -9,7 +9,7 @@ import 'package:whats_app_clone/app/config/routes.dart';
 import 'package:whats_app_clone/app/config/theme.dart';
 import 'package:whats_app_clone/app/utils/device_camera.dart';
 import 'package:whats_app_clone/app/utils/device_info.dart';
-import 'package:whats_app_clone/app/views/screens/init_screen/init_screen.dart';
+import 'package:whats_app_clone/app/views/screens/landing_screen/landing_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -54,7 +54,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Whats app clone',
       theme: buildThemeData(),
-      home: const InitScreen(),
+      // home: const InitScreen(),
+      home: LandingScreen(),
       getPages: getPagesRoutes,
     );
 

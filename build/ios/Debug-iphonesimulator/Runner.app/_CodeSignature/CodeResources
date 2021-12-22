@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		0FoRushf5EuIO6E+f0Q4MXqrj74=
+		EypDJg3TRVw5MrUS71OUhS7eyRI=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		eK0TDsJIWSW881bZS+sdr9ZLP8Q=
+		QtKZrY8EXObv+qttsrqTu0sZBos=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		MZsQtm7qLsV/WJiYNuNGrwjgy8s=
+		1ehSPMs4pTrSqxuUudwYRbTL2ME=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		mde3h9CZ97yMDss7pEJCOwPgtwk=
+		x4+l11ycExdh/ttehmv03QgTBUM=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -104,6 +104,10 @@
 		<data>
 		sxd7S7I2zZaQoKZpcwIlGr6Kpl0=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/bg.png</key>
+		<data>
+		jTmejp6mTdaMZoOLvM8U4j8ZKRo=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/bg_chat.jpg</key>
 		<data>
 		chyF+1CbQ7TT8zVwhxhYmZE4rmc=
@@ -126,7 +130,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		5huyGCNRT1LqAHVa6waRCW5oAT4=
+		v+/SGYdWB6T5zTpu9AeHmOI0zqU=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -230,7 +234,7 @@
 		</data>
 		<key>Frameworks/camera.framework/camera</key>
 		<data>
-		kS7zYxVB6tPzXe64eZnr6EXMgPU=
+		HcAcX70MYW8RdEsyFNsHCkhvhnY=
 		</data>
 		<key>Frameworks/device_info.framework/Info.plist</key>
 		<data>
@@ -242,7 +246,7 @@
 		</data>
 		<key>Frameworks/device_info.framework/device_info</key>
 		<data>
-		5YKazO2R0PIQIgNfTm1h0eLVWVo=
+		+c9oOVtQ41UOZHJPZyGQ1GVKkr8=
 		</data>
 		<key>Frameworks/emoji_picker_flutter.framework/Info.plist</key>
 		<data>
@@ -254,7 +258,7 @@
 		</data>
 		<key>Frameworks/emoji_picker_flutter.framework/emoji_picker_flutter</key>
 		<data>
-		6i1RQrPzDsaHU2QwlO/M/0J8Wwk=
+		xnm1aPq2CGwDoTe1+nqXbukAGTE=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -322,7 +326,7 @@
 		</data>
 		<key>Frameworks/path_provider.framework/path_provider</key>
 		<data>
-		K83G57dfifIXRDXQw09Mt3baeUc=
+		eiLVsT9TViPJSAHl6DIwJOJXgpQ=
 		</data>
 		<key>Frameworks/shared_preferences.framework/Info.plist</key>
 		<data>
@@ -334,7 +338,7 @@
 		</data>
 		<key>Frameworks/shared_preferences.framework/shared_preferences</key>
 		<data>
-		8AzNz9wx0Zuu3EvnFJ/6pecRa8g=
+		VAydIQX+5v1EJtTe168+2zy8MKA=
 		</data>
 		<key>Frameworks/video_player.framework/Info.plist</key>
 		<data>
@@ -346,7 +350,7 @@
 		</data>
 		<key>Frameworks/video_player.framework/video_player</key>
 		<data>
-		xBHqQVnIG7v1JVURqqtHYod1NVM=
+		6j+q88CuLJFFpGC6BTVtFOxBJwk=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -384,7 +388,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s+ERy59UvGH73GObpjEDDDBlniMVY5NhpyVlrovFQ/4=
+			ZS113mNOCEVO7qS6VXNgGH83yn8DK86mHwFwsCYk6+k=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -433,7 +437,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JTFmThgz1o1iOSvGWmYKfxvxlj4YFF8ndQSoqBzG7tI=
+			IxT6Smt8K5QgLkYnqENnUbvfCcqwEHTITSFd01DHtBY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -447,14 +451,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PUEmEtmXDig0aAkorVJUnraQSfmowdogK+IiUJ26yv4=
+			B/kR3bxHRe2jhqxY4s8Zls67dMw7dpm6q56Q4rAns4U=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P9uFimYqSNXtizEtfEXOAQvAbpmkM+m3DYY5Mqvkjtc=
+			BkTQo05/MI73jH6CxWYYlnzC9+7yyIW1H0uSeuGa4nk=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -534,6 +538,13 @@
 			wXD9CxSWuxumvDgVjnHzt13RGfrpKhgw9L8In2becu0=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/bg.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i8x8leqk6D7qUozjsbMA8Nh6gG45fhnrEpkZrmcqt5E=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/bg_chat.jpg</key>
 		<dict>
 			<key>hash2</key>
@@ -573,7 +584,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LgeBPLjrsqlGYnNVuW9yyV/kmIpdNPZEVd3dOnVERCQ=
+			UEEwQz21kbWeuCxRM9zxB+zrlwIvfJfn+Kv8GrFPNlk=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -755,7 +766,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zbG3jZK7LUJkbBDTOtH9fa7Rwr+jiJo2kloxxlxPAzc=
+			kYNgMOTlSLEYJTr/rml1W/E+2iIyhdja780w6MK+7Po=
 			</data>
 		</dict>
 		<key>Frameworks/device_info.framework/Info.plist</key>
@@ -776,7 +787,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9nM7PT2cZZOiwCrCm0c5pR2EFlCP0i958nRv1Hnm7Ps=
+			zY4oOfhw2y/eXOTXAJWq6siRkzQyRjlz1XIwII3v4OA=
 			</data>
 		</dict>
 		<key>Frameworks/emoji_picker_flutter.framework/Info.plist</key>
@@ -797,7 +808,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1w6jqiVd3lvlEAUUMNOlBQeGjksplGd77Eq/ZYwAA0M=
+			MtmAxOi1kcpK6iHlvpFNwM2+3MqIZ5MJ4MO05IzJ0R4=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
@@ -916,7 +927,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yiuYiPCo29QsfcJmXwcul916oz5736scnfyDacM5HFw=
+			jDa9V67H10EaUERrub0kKaSgeKDKdlHJ4NduMO2z0hQ=
 			</data>
 		</dict>
 		<key>Frameworks/shared_preferences.framework/Info.plist</key>
@@ -937,7 +948,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lZlwk9Yda6+/qGXfU81mT89TTnnTijm94F404v70Tfg=
+			m09WcQE2mRDgei9JMd8c8D5cF17Urq7x7y+zt8m2yuQ=
 			</data>
 		</dict>
 		<key>Frameworks/video_player.framework/Info.plist</key>
@@ -958,7 +969,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AExLG078ih32dvBBONZYs9XgDz8ZVDnXIYYEp7lECSs=
+			XhCSFQhRdvnhe+rKlklPiQx6Z3GY7suT62PpwOnZ510=
 			</data>
 		</dict>
 	</dict>
